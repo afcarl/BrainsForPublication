@@ -1,8 +1,9 @@
 matplotlib
-mayavi
+numpy
+scipy
+nipy
 nibabel
 nilearn
-nipy
-numpy
+mayavi
+vtk
 pysurfer
-scipy
