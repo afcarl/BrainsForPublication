@@ -1,4 +1,5 @@
 matplotlib
+mayavi
 nibabel
 nilearn
 nipy
