@@ -3,4 +3,5 @@ nibabel
 nilearn
 nipy
 numpy
+pysurfer
 scipy
