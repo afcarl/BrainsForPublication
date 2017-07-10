@@ -7,6 +7,11 @@
 #=============================================================================
 
 #=============================================================================
+# Make this function work for Python 2 & 3
+from __future__ import print_function
+#=============================================================================
+
+#=============================================================================
 # IMPORTS
 #=============================================================================
 import os
@@ -28,8 +33,7 @@ import matplotlib.gridspec as gridspec
 import matplotlib.colors as mcolors
 import matplotlib.cm as cm
 
-# Make this function work for Python 2 & 3
-from __future__ import print_function
+
 
 #=============================================================================
 # FUNCTIONS
