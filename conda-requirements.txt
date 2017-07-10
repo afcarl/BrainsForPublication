@@ -1,0 +1,11 @@
+dependencies:
+  - matplotlib
+  - vtk
+  - mayavi
+  - numpy
+  - scipy
+  - pip:
+    - nipy
+    - nibabel
+    - nilearn
+    - pysurfer
