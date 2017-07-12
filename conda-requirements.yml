@@ -1,0 +1,16 @@
+name: brains-for-pub
+
+dependencies:
+  - python=2.7
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - vtk
+  - mayavi
+  - pip:
+    - nipy
+    - nibabel
+    - nilearn
+    - pysurfer
+
