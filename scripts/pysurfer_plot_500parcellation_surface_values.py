@@ -7,14 +7,15 @@
 #=============================================================================
 
 #=============================================================================
-# Make this function work for Python 2 & 3
-from __future__ import print_function
+# Figure out some crazy sh*t with mayavi/vtk/ipython
+import os
+os.environ['QT_API'] = 'pyqt'
+os.environ['ETS_TOOLKIT'] = 'qt4'
 #=============================================================================
 
 #=============================================================================
 # IMPORTS
 #=============================================================================
-import os
 import sys
 import argparse
 import numpy as np
